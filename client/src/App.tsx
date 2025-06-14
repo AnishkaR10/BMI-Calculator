@@ -22,7 +22,7 @@ function App() {
       <ThemeProvider attribute="class" defaultTheme="light">
         <TooltipProvider>
           <div className="flex flex-col min-h-screen">
-            <main className="flex-grow mt-20">
+            <main className="flex-grow mt-0">
               <Router />
             </main>
             
