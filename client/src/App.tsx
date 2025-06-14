@@ -22,7 +22,6 @@ function App() {
       <ThemeProvider attribute="class" defaultTheme="light">
         <TooltipProvider>
           <div className="flex flex-col min-h-screen">
-            <Header />
             <main className="flex-grow mt-20">
               <Router />
             </main>
